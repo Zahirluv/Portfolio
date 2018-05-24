@@ -1,0 +1,335 @@
+:root {
+	font-size: 18px;
+}
+/*//global*/
+ * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+ }
+ .clearfix:: after {
+ 	content: "";
+ 	clear: both;
+ 	display: table;
+ }
+
+ html {
+    font-family: proxima nova, sans-serif;
+    
+ }
+ body {
+ 	width: 90%;
+ 	margin: auto;
+ 	background-image: url(images/mihai-surdu-406927-unsplash.JPG); 
+ 	background-position: top center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+ .wrapper {
+ 	width: 90%;
+ 	margin: 0 auto;
+ }
+ 
+ h1 {
+ 	color: #17191a;
+ 	font-size:2.3rem;
+ 	
+
+ }
+ p {
+    color: #8f9ea5;
+    font-size: 1rem;
+    margin-top: 10px;
+ }
+ ul {
+ 	color: black;
+ 	list-style: none;
+ 	margin-top: 30px;
+ }
+ li {
+ 	color: white;
+ 	font-size: 1rem;
+ 	margin-bottom: 20px;
+ }
+
+
+/*//NAV//*/
+nav {
+	height:100px;
+	line-height: 100px;
+ }
+ nav s {
+ 	color: #3c6478;
+ 	text-decoration: line-through;
+ 	font-size: 1.3rem;
+ }
+ nav  img {
+ 	margin-right: 50px;
+ 	width: 100px;
+    vertical-align: middle;
+    margin-top: 17px;
+    border-radius: 49%;
+    float: right;
+ }
+ 
+ nav  img:hover {
+ 	transform: scale(1.3);
+ }
+ 
+
+
+ /*//header//*/
+ header {
+ 	font-size: 1.3rem;
+ 	margin: 100px 0 200px 0;
+ 	text-align: center;
+ 	border-style: inset;
+    border-color: black;
+    border-width:  5px;
+    border-height: 4px;
+    padding: 20px 20px 20px 20px;
+
+ }
+ header p {
+ 	color: black;
+ 	width: 45%;
+ 	margin: 30px auto 0 auto;
+ 	font-size: 1rem;
+ }
+header a {
+	color: #ff4A5E;
+	text-decoration: underline;
+ }
+
+
+ .whatido {
+ 	text-align: center;
+ 	margin: 100px 0 200px 0;
+ 	position: relative;
+ }
+.whatido h1 {
+	color: black;
+	padding-top: 30px;
+
+ }
+ .whatido ul {
+ 	padding: 80px;
+ 	line-height: 40px;
+ }
+ .whatido li {
+ 	font-size: 1.4rem;
+ 	line-height: 40px;
+ 	width: 100%;
+
+
+ }
+ .iAm {
+ 	/*color: #25272C;*/
+ 	color:  #8f9ef5;
+ 	font-size: 10rem;
+ 	position: absolute;
+ 	left: 50%;
+ 	transform: translateX(-50%);
+ 	-webkit-transform:translateX(-50%);
+ 	top: -20px;
+ 	z-index: -1;
+ 	opacity: 0.5;
+ }
+ /*//WORK2//*/
+ .container p {
+ 	font-size: 1rem;
+ 	color: #c2571a;
+ 	line-height: 2rem;
+ 	
+ 	padding: 40px 20px 20px 40px;
+
+ }
+ .container h3{
+ 	font-size: 1.3rem;
+
+ }
+ .work2 {
+ 	width: 100vw;
+ 	position: relative;
+ 	left: 50%;
+ 	right:50%;
+ 	margin-left: -50vw;
+ 	margin-right: -50vw;
+ 	background-image: url(images/20180522_231006.png);
+ 	background-size: cover;
+ 
+ }
+
+/* //FOOTER//*/
+ footer {
+ 	text-align: center;
+ 	margin: /**/ 0;
+ 	overflow: active;
+
+ }
+ footer img {
+ 	margin-right: 50px;
+ 	width: 25px;
+
+ 
+
+}
+footer li {
+	display: inline;
+}
+footer p {
+	padding: 50px;
+}
+.quotes p {
+	padding: 50px 50px 50px 50px;
+	font-size: 2rem;
+	font-style:italic ;
+}
+/* //RESPONSIVE//*/
+/*
+@media only screen and (min-width:740px) {
+	header p {
+		width: 100%;
+	}*/
+	
+@media only screen and (min-width:480px) and (max-width:780px) {
+	 .quotes p {
+
+	padding: 50px 50px 50px 50px;
+	font-size: 1.4rem;
+	font-style:italic ;
+
+ }
+
+}
+    
+@media only screen and (max-width:480px) {
+	 
+.container p {
+	font-size: 0.8rem;
+ 	color: #dcdcdc;
+ 	line-height: 1.5rem;
+ 	font-style: initial;
+ 	padding: 40px 20px 20px 40px;
+
+
+}
+.wrapper img {
+	float: top-right;
+	
+	
+}
+     header p {
+		width: 96%;
+		margin: 30px auto 100px auto;
+		text-align: left;
+	}
+	
+	.whatido {
+		text-align: left;
+		width: 96%;
+	}
+		
+    .whatido li {
+ 	font-size: 0.8rem;
+ 	line-height: 30px;
+
+
+ }
+ .quotes p {
+
+	padding: 50px 50px 50px 50px;
+	font-size: 1.1rem;
+	font-style:italic ;
+
+ }
+
+    .iAm  {
+    	visibility: hidden;
+    }
+    footer {
+    	text-align: left;
+    	width: 90%;
+    	margin: 60px auto;
+    }
+    .credit {
+    	font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
